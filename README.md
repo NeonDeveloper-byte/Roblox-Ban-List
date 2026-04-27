@@ -1,5 +1,5 @@
 > [!CAUTION]
-> The only official place to get the rbxrulebreakers list is https://github.com/rbxrulebreakers/list. Any other websites offering downloads or claiming to be us are not controlled by us.
+> The only official place to get the rbxrulebreakers list is https://github.com/NeonDeveloper-byte/Roblox-Ban-List. Any other websites offering downloads or claiming to be us are not controlled by us.
 
 > [!WARNING]
 > We are not Roblox employees! If you require assistance from Roblox then [click here](https://www.roblox.com/support) or call roblox (United States Number) at 888-858-2569.
