@@ -60,7 +60,7 @@ Join the [![Discord][shield-discord-server]][discord-invite] Server before using
 > [!NOTE]
 > Outputs the list.
 ```luau
-print(game:GetService("HttpService"):GetAsync("https://raw.githubusercontent.com/rbxrulebreakers/list/main/users"))
+print(game:GetService("HttpService"):GetAsync("https://raw.githubusercontent.com/NeonDeveloper-Byte/list/main/users"))
 ```
 ## Using the list
 > [!NOTE]
@@ -75,7 +75,7 @@ local IsInStudio,fetching,list = game:GetService("RunService"):IsStudio(),nil,ni
 
 --// Functions
 
--- Fetches the latest list of https://github.com/rbxrulebreakers/list
+-- Fetches the latest list of https://github.com/NeonDeveloper-byte/Roblox-Ban-List
 @native
 local function FetchList()
    if fetching then while task.wait(1) do if not fetching then return end end end
@@ -83,7 +83,7 @@ local function FetchList()
    local s,r,t=nil,nil,3
    repeat
       s,r=pcall(function()
-         return http:GetAsync("https://raw.githubusercontent.com/rbxrulebreakers/list/main/users",true)
+         return http:GetAsync("https://raw.githubusercontent.com/NeonDeveloper-byte/Roblox-Ban-List/list/main/users",true)
       end)
       if not s then
          if string.match(r,"exceeded") then warn("RATELIMIT. Waiting 30 seconds...")task.wait(30)else t=-1 task.wait(1)end
